@@ -106,8 +106,6 @@ class MessageForm extends Component {
         }.bind(this));
 
         fetch('https://resources.digivigil.com/messageDrop/', {
-            //fetch('http://messageDrop-develop/messageDrop/?XDEBUG_SESSION_START=PHPSTORM', {
-
             method: 'post',
             mode: 'cors',
             body: JSON.stringify({

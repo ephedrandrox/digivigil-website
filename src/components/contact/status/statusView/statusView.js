@@ -17,7 +17,6 @@ class StatusView extends Component {
 
         let thisSetState = this.setState.bind(this);
         fetch('https://resources.digivigil.com/messageDrop/getStatus.php', {
-            //fetch('http://messagedrop-develop/messageDrop/getStatus.php',{
             method: 'post',
             mode: 'cors',
             body: JSON.stringify({
