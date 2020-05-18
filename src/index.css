@@ -1,0 +1,26 @@
+body {
+  color: #0a77d5;
+  background: #000;
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main {
+  height: 100%;
+
+  background: #f76ff2; /* Old browsers */
+  background: -moz-linear-gradient(top, #f76ff2 1%, #9b56d3 7%, #9b56d3 12%, #8690e8 20%, #93c7f2 29%, #7db9e8 79%, #207cca 95%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f76ff2 1%, #9b56d3 7%, #9b56d3 12%, #8690e8 20%, #93c7f2 29%, #7db9e8 79%, #207cca 95%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f76ff2 1%, #9b56d3 7%, #9b56d3 12%, #8690e8 20%, #93c7f2 29%, #7db9e8 79%, #207cca 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+a {
+  color: #0060b6;
+  text-decoration: none;
+}
+html {
+  height: 100%;
+}

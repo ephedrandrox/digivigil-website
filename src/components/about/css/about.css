@@ -1,0 +1,104 @@
+#AboutMainDiv {
+    background: rgba(23, 5, 46, 0.24);
+    position: static;
+    border: solid #0a77d5 5px;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    border-radius: 15%;
+    padding: 60px;
+    width:auto;
+    display: inline-block;
+    padding-bottom:100px;
+    padding-top: 20px;
+    color: #d536cb;
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 75px;
+    min-width: 550px;
+    text-align: center;
+}
+.AboutMainInfoDiv{
+    background: rgba(5, 5, 48, 0.46);
+    position: static;
+    border: solid #d536cb 5px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 30px;
+    font-size: 14pt;
+    display: inline-block;
+    color: #d536cb;
+    margin: auto;
+    line-height: 120%;
+    max-width: 600px;
+    min-width: 475px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.46)), url(https://resources.digivigil.com/videos/demoPoster.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.AboutMainMeLinksDiv{
+    display: block;
+    text-align: center;
+}
+.linkDiv {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid #ffffff 3px;
+    border-radius: 15px;
+    margin: 10px;
+    background: rgba(155, 86, 211, 0.16);
+}
+.linkDiv:hover {
+    border: solid red 3px;
+}
+.linkImage{
+
+    display: block;
+
+    height: 40px;
+}
+.AboutMainMeImage{
+    float: left;
+    border: solid #d536cb 3px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: auto;
+    width: 200px;
+}
+.AboutMainTitleDiv {
+    background: rgba(6, 6, 33, 0.69);
+    position: static;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width:auto;
+    font-size: 36pt;
+    display: inline-block;
+    color: #d536cb;
+    max-width: 75%;
+    margin: auto;
+    text-shadow: #000 0px 0px 1px,#000 0px 0px 1px,#000 0px 0px 1px,#000 0px 0px 1px,#000 0px 0px 1px,#000 0px 0px 1px;
+    background: none;
+    border: none;
+}
+
+@media only screen and (max-width: 725px) {
+    .AboutMainInfoDiv {
+        transform: scale(.7);
+        margin: -100px;
+        margin-bottom: -50px;
+        margin-top: -50px;
+    }
+    #AboutMainDiv {
+        margin: 0;
+        padding: 30px;
+        padding-bottom: 100px;
+        position: relative;
+        min-width: 400px;
+    }
+}

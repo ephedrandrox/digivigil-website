@@ -1,0 +1,51 @@
+.mainViewMainDiv {
+    verticalAlign: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: auto;
+}
+
+.mainViewRouteContainerDiv {
+    position: relative;
+    min-height: calc(100vh - 165px);
+}
+
+.mainViewLogoContainer {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transform-origin: 50% 50%;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+@media only screen and (orientation: landscape) {
+    .mainViewLogoContainer {
+        width: 60vh;
+        height: 60vh;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .mainViewLogoContainer {
+        width: calc(80vw - 60px);
+        height: calc(80vw - 60px);
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .mainViewLogoContainer {
+        top: 160px;
+        transform: translateX(-50%);
+    }
+}

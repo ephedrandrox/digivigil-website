@@ -1,0 +1,222 @@
+.MessageFormMainDiv {
+    position: relative;
+    background: rgba(23, 5, 46, 0.5);
+    border: solid rgba(0, 0, 0, 1) 1px;
+    -webkit-border-radius: 0 15% 15% 15%;
+    -moz-border-radius: 0 15% 15% 15%;
+    border-radius: 0 15% 15% 15%;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.MessageFormSendMessageOverlayErrorLabelDiv {
+    background: rgba(23, 5, 46, 0.5);
+    padding: 20px;
+    border: solid #0a77d5 3px;
+    color: red;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.MessageFormSendMessageOverlayButtonDiv {
+    display: inline;
+    padding: 5px;
+    cursor: pointer;
+    border: solid #0a77d5 3px;
+    margin: 10px;
+}
+
+.MessageFormSendMessageOverlayButtonDiv:hover {
+    border: solid red 3px;
+}
+
+.MessageFormSendMessageOverlaySuccessLabelDiv {
+    background: rgba(23, 5, 46, 0.5);
+    padding: 20px;
+    border: solid #0a77d5 3px;
+    color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+
+.MessageFormInputDiv {
+    position: relative;
+    color: white;
+    background: #0a77d5;
+    text-align: left;
+    padding: 10px;
+    border-bottom: solid #0a77d5 5px;
+    height: 22px;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.MessageFormInput {
+    border: solid purple 3px;
+    margin: 0px;
+    color: #5de818;
+    background: rgba(23, 5, 46, 0.5);
+    border: solid #0a77d5 3px;
+    border-right: none;
+    display: inline;
+    padding: 5px;
+    padding-left: 10px;
+    margin-right: 15%;
+    font: inherit;
+    position: absolute;
+    left: 20%;
+    top: -3px;
+    right: 0px;
+    width: 78%;
+    font-size: 16px;
+    bottom: -3px;
+}
+
+
+.MessageFormMessageGridDiv {
+    -webkit-border-radius: 0 15% 15% 15%;
+    -moz-border-radius: 0 15% 15% 15%;
+    border-radius: 0 15% 15% 15%;
+    border: solid #0a77d5 10px;
+    background: rgba(23, 5, 46, 0.5);
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 160px auto 50px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+
+.MessageFormMessageDivTopGrid {
+    grid-area: 1 / 1 / 2 / 2;
+    border-bottom: solid #0a77d5 5px;
+    background: black;
+}
+
+
+.MessageFormMessageDivMiddleGrid {
+    grid-area: 2 / 1 / 3 / 2;
+    padding: 10px;
+    overflow: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.46)), url(https://resources.digivigil.com/videos/demoPoster.jpg);
+    background-repeat: no-repeat;
+    background-size: 900px 700px;
+}
+
+.MessageFormMessageDivBottomGrid {
+    grid-area: 3 / 1 / 4 / 2;
+    border-top: solid #0a77d5 5px;
+    background: #0a77d5;
+    text-align: center;
+    padding: 0 0px 0 0px;
+}
+
+.MessageFormSendButtonImg {
+    display: inline;
+    vertical-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    height: 40px;
+}
+
+.MessageFormSendButtonLabelDiv {
+    display: inline-block;
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.MessageFormSendButtonDiv {
+    position: relative;
+    border: solid transparent 3px;
+    background: white;
+    color: #0a77d5;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    height: 39px;
+    margin: 0;
+    line-break: strict;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.MessageFormSendButtonDiv:hover {
+    border: solid #000000 3px;
+    height: 39px;
+    color: #000000;
+}
+
+.MessageFormSendButtonDiv:active {
+    border: solid #FFFFFF 3px;
+    height: 39px;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+.MessageFormSendMessageOverlayDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 7, 63, 0.8);
+    color: white;
+    -webkit-border-radius: 0 15% 15% 15%;
+    -moz-border-radius: 0 15% 15% 15%;
+    border-radius: 0 15% 15% 15%;
+    text-align: center;
+}
+
+.MessageFormSendMessageOverlayCenterDiv {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: solid white 3px;
+    text-align: center;
+    align-content: center;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    border-radius: 15%;
+}
+
+.MessageFormSendMessageOverlayLabelDiv {
+    display: block;
+}
+
+.MessageFormSendMessageOverlayStatusDiv {
+    display: inline-block;
+    width: 40px;
+    font-size: 30px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .MessageFormMainDiv {
+        transform: scale(.7);
+        margin: -100px;
+        margin-top: -75px;
+        margin-bottom: -75px;
+    }
+}

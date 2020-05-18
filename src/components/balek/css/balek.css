@@ -1,0 +1,147 @@
+#BalekMainDiv {
+    background: rgba(23, 5, 46, 0.24);
+    position: static;
+    border: solid #0a77d5 5px;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    border-radius: 15%;
+    padding: 60px;
+    width: auto;
+    display: inline-block;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    color: #96f2a6;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.BalekMainInfoDivVideo {
+    width: 600px;
+    height: 337px;
+    border: solid #96f2a6 3px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: auto;
+}
+
+.linkDiv {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid #ffffff 3px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.linkDiv:hover {
+    border: solid #96f2a6 3px;
+}
+
+.linkImage {
+    display: block;
+    height: 40px;
+}
+
+.BalekMainMeImage {
+    border: solid #96f2a6 3px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 10px;
+}
+
+.BalekMainTitleDiv {
+    background: rgba(6, 6, 33, 0.69);
+    position: static;
+    border: solid #0a77d5 5px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: auto;
+    font-size: 36pt;
+    display: inline-block;
+    color: #96f2a6;
+    max-width: 75%;
+    margin: auto;
+    text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+    background: none;
+    border: none;
+}
+
+.BalekMainInfoDiv {
+    background: rgba(5, 5, 48, 0.46);
+    position: relative;
+    border: solid #96f2a6 5px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 14pt;
+    display: inline-block;
+    color: #96f2a6;
+    max-width: 75%;
+    margin: 50px;
+    vertical-align: top;
+    min-width: 650px;
+    height: 500px;
+    width: 700px;
+    background: url(https://resources.digivigil.com/videos/demoPoster.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+}
+
+.BalekMainInfoChooseResolutionDiv {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+    padding: 10px;
+    border-radius: 0 0 0 10px;
+    -webkit-box-shadow: -5px 5px 25px 1px #000000;
+    box-shadow: -5px 5px 25px 1px #000000;
+}
+
+.BalekMainInfoChooseResolutionMenuButton {
+    cursor: pointer;
+    background: transparent;
+    padding-top: 3px;
+    font-size: 14px;
+    text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+}
+
+.BalekMainInfoChooseResolutionMenuButton:hover {
+    color: red;
+}
+
+.activeVideoResolutionMenuButton {
+    color: purple;
+}
+
+@media only screen and (max-width: 1000px) {
+    .BalekMainInfoDiv {
+        transform: scale(.7);
+        margin: -100px;
+        margin-bottom: 0px;
+        margin-top: -100px;
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    /* tablets and desktop */
+    .BalekMainInfoDiv {
+        transform: scale(.5);
+        margin: -200px;
+        margin-bottom: 0px;
+        position: relative;
+        top: 75px;
+    }
+}

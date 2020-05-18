@@ -1,0 +1,28 @@
+#DigivigilLogo {
+    background: #17052e;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: solid #0a77d5 5px;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    border-radius: 30%;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    padding: 0px;
+    margin: 0;
+    padding-top: 0;
+    align-content: center;
+}
+
+#DigivigilImage {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 80%;
+    display: inline-block;
+    padding: 0;
+}

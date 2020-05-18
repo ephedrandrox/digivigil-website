@@ -1,0 +1,27 @@
+.statusViewDiv {
+    display: inline-block;
+    max-width: 90%;
+    color: black;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.statusViewLogoDiv {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.statusViewLogoDiv:hover {
+    transform: scale(1.1);
+}
+
+.statusLink {
+    color: white;
+}
+
+.statusLink:hover {
+    color: red;
+}

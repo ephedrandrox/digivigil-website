@@ -1,0 +1,8 @@
+version: '3'
+services:
+  httpd:
+    image: "digivigil-website-httpd:develop"
+    ports:
+      - "80:80"
+    volumes:
+      - ./webroot:/var/www/html/public/digivigil-website-develop

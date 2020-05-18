@@ -1,0 +1,36 @@
+#ContactMainDiv {
+    background: rgba(23, 5, 46, 0.24);
+    position: static;
+    margin-top: 0px;
+    border: solid #0a77d5 5px;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    border-radius: 15%;
+    padding: 60px;
+    width: auto;
+    padding-top: 20px;
+    display: inline-block;
+    padding-bottom: 40px;
+    color: #5de818;
+    margin-bottom: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transform-origin: 50% 50%;
+}
+
+.ContactText {
+    color: #5de818;
+}
+
+@media only screen and (max-height: 725px) {
+    #ContactMainDiv {
+
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+}
