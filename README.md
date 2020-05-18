@@ -1,20 +1,21 @@
-digivigil-website
+#digivigil-website
 
-To Clone: git clone https://github.com/ephedrandrox/digivigil-website.git
+###React Framework Freelance Portfolio Single Page App Example
 
-cd digivigil-website
+``git clone https://github.com/ephedrandrox/digivigil-website.git``
 
-npm install
+``cd digivigil-website``
 
-npm run build
+``npm install``
 
-npm run buildProduction
+``npm run build``
 
-npm run build-docker
+``npm run buildProduction``
 
-npm run start
+``npm run build-docker``
 
-npm run stop
+``npm run start``
 
-npm run restart
+``npm run stop``
 
+``npm run restart``
